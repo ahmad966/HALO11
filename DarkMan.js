@@ -50,13 +50,13 @@ const embed = new Discord.MessageEmbed()
 ・┊left [change channel]
 **
 **[ invite ]**
-**[ click here ](https://discord.com/api/oauth2/authorize?client_id=743869029638471802&permissions=8&scope=bot)** 
+**[ click here ]()** 
 **[ support ]**
-**[ click here ](https://discord.gg/tstcyhgQeS)**
+**[ click here ]()**
  `)
     
-    .setFooter(` Remix Bot ✨ | Coded by , DarkMan`, DarkMan.user.avatarURL)
-    .setURL("https://discord.gg/YSx9p3e7F8")
+    .setFooter(` ✨ | Coded by , `, DarkMan.user.avatarURL)
+    .setURL("")
       
     message.channel.send(embed);
       message.react("❤️");
