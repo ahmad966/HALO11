@@ -25,7 +25,7 @@ const DarkMan = new Discord.Client();
 const prefix = "D!";
 
 
-DarkMan.login("");
+DarkMan.login("ODA0NDEyNTk1OTM0MDY4NzU3.YBL9nA.3G-sptLxxedpMo_7KZapchelmkI");
 DarkMan.on("ready", async () => {
   console.log(`Logged in as ${DarkMan.user.username}!`);
   DarkMan.user.setStatus("ONLINE");
